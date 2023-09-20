@@ -6,3 +6,26 @@ video {
   max-width: 100%;
   width: 320px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#video-container {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+}
+
+#controls {
+  display: inline-grid;
+  align-content: stretch;
+  grid-auto-flow: column;
+  width: 100px;
+  height: 50px;
+  grid-gap: 3px;
+}
